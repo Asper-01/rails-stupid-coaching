@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  margin: 5px;
+  padding: 5px;
+}
+
+.title {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+  background-color: beige;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 15vh;
+}
+.test{
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: beige;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 15vh;
+}
